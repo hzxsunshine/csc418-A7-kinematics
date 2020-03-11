@@ -9,6 +9,7 @@ Eigen::Vector3d catmull_rom_interpolation(
   // Replace with your code
   // c(t) = a t^3 + b t ^2 + c t + d
   // mk = theta_k+1 - theta_k / t_k+1 - t_k
+  // reference: https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline
   Eigen::Vector3d c_t(0, 0, 0);
   if (keyframes.empty()) {
       return c_t;
