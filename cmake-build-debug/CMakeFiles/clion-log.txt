@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zixuan/Documents/GitHub/csc2504-A7-kinematics
+-- Found libtool - /usr/bin/libtool
+-- Creating target: igl::core (igl)
+-- Creating target: igl::opengl (igl_opengl)
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+-- Could NOT find Vulkan (missing: VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using Cocoa for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zixuan/Documents/GitHub/csc2504-A7-kinematics/cmake-build-debug
