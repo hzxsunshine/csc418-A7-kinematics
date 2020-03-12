@@ -30,7 +30,7 @@ Eigen::Vector3d catmull_rom_interpolation(
   }
 
   int offset = (index == 0) ? 0 : 1;
-  int offset_2 = (index == size) ? 1 : 0;
+  int offset_2 = (index + 2 == size) ? 1 : 0;
 
   t_0 = keyframes[index - offset].first;
   t_1 = keyframes[index].first;
